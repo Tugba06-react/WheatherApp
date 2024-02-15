@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+   background: url(sky.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 100px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.inputText{
+    width:  40%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 3px solid  rgb(220, 175, 190);
+    font-size: 20px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn{
+    width: 200px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 29px 31px rgba(0, 0, 0, 0.216);
+    background: rgba(128, 128, 128, 0.496);
+    color: #fff;
+    cursor: pointer;
+    padding: 4px;
+}
+.btn:hover{
+    background-color: rgb(220, 175, 190);
+    color: black;
+    scale: 1.1;
+    transition: .5s;
+}
+.info{
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info p{
+    margin-top: 30px;
+}
+#sicaklik{
+    font-size: 40px;
+}
+.weather-info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
